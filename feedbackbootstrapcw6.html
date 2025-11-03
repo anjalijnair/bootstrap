@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feedback</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="container mt-3 justify-content-center" style="width: 50%;">
+        <div class="form-group">
+            <i class="bi bi-person-fill"></i>
+            <label for="usr"><b>Name:</b></label>
+            <input type="text" class="form-control" id="usr" placeholder="Enter username">
+        </div>
+        <div class="form-group">
+            <i class="bi bi-envelope-at-fill"></i>
+            <label for="emil"><b>Email:</b></label>  
+            <input type="email" class="form-control" id="emil" Placeholder="Enter Email" >
+        </div>
+        <div class="form-group">
+            <i class="bi bi-star-fill"></i>
+            <label for="comment"><b>Feedback massage:</b></label>
+            <textarea class="form-control" rows="3" id="comment" "></textarea>
+        </div>
+        <div class="form-group">
+            <i class="bi bi-question-circle-fill"></i>
+            <label for="sel1"><b>How did you find our Website:</b>&nbsp;</label>
+            <select class="form-control" id="sel1" >
+                 <option>Search Engine</option>
+                 <option>Social Media</option>
+                 <option>Via Friends</option>
+                 <option>Advertisement</option>
+            </select>
+        </div>
+        <h3 class=" d-flex justify-content-center mb-3 mt-3" ><u>Rate this Website</u></h3>
+        <div class="d-flex justify-content-center mb-3">
+        <div class="form-check-inline ">
+            <input type="radio" class="form-check-input "name="rte1"><label class="micro-animation">😍</label>
+            </label>
+        </div>
+        <div class="form-check-inline">
+            <label class="form-check-label">
+            <input type="radio" class="form-check-input"name="rte2"><label class="micro-animation">😊</label>
+            </label>
+        </div>
+        <div class="form-check-inline">
+            <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="rte3"><label class="micro-animation">😐</label>
+            </label>
+        </div>
+        <div class="form-check-inline">
+            <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="rte4"><label class="micro-animation">😕</label>
+            </label>
+        </div>
+        <div class="form-check-inline">
+            <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="rte5"><i class="micro-animation">😡</i>
+            </label>
+        </div>
+        </div>
+        </div>
+        <div>
+        <button type="submit" class="btn btn-primary d-block mx-auto mt-4">Submit</button>
+        </div>
+        
+    </div>
+    
+</body>
+</html>
